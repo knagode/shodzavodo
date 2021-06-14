@@ -1,4 +1,6 @@
 @charset "UTF-8";
+#podporniki img { max-width: 200px; max-height: 100px; margin-left: 10px; margin-bottom: 10px; }
+
 .quote { font: Amaranth; color: gray; font-size: 150%; }
 
 .fbx-player-wrapper { position: fixed; bottom: -17px; left: 5px; right: 5px; }
