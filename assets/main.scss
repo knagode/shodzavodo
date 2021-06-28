@@ -10996,6 +10996,14 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
+@media (max-width: 992px) {
+  header.masthead {
+    padding-top: 8rem;
+  }
+}
+
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }

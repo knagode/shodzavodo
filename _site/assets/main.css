@@ -2433,6 +2433,8 @@ hr.divider-light { background-color: #fff; }
 
 header.masthead { padding-top: 10rem; padding-bottom: calc(10rem - 4.5rem); background: url("/img/bg-masthead.jpg"); background-position: center; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; }
 
+@media (max-width: 992px) { header.masthead { padding-top: 8rem; } }
+
 header.masthead h1, header.masthead .h1 { font-size: 2.25rem; }
 
 @media (min-width: 992px) { header.masthead { height: 100vh; min-height: 40rem; padding-top: 4.5rem; padding-bottom: 0; } header.masthead p { font-size: 1.15rem; } header.masthead h1, header.masthead .h1 { font-size: 3rem; } }
